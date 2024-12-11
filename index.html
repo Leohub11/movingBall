@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Moving Ball</h1>
+    <p>
+      <img id="ball" src="fcb-soccer-ball.png" width="100px" height="100px" />
+    </p>
+    <div id="control">
+      <label for="speedControl">Adjust Speed: </label>
+      <input type="range" id="speedControl" min="50" max="1000" value="3000" />
+      <span id="speedValue">500ms</span>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
